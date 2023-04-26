@@ -2,11 +2,26 @@
 <html>
     <head>
         <title> Home </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
         <style>
            .AAA,.ZZZ {
+            border: solid coral;
+            border-radius: 20px;
+            width: 400px;
+            height: 40px;
                 color: blueviolet;
+                text-transform: uppercase;
+                text-align: center;
+               
             }
-           span {
+           .circle {
+                list-style: circle;
+                font-family: 'Roboto Slab', serif
+            }
+
+            span {
                 color: brown;
             }
             #xxx {
@@ -15,7 +30,16 @@
             }
             #qqq{
                 background-color: rgb(218, 95, 95);
+                text-transform: capitalize;
             }
+            li{
+                padding-bottom: 10px;
+            }
+            .zzz{
+                margin: top 5px;
+
+            }
+           
         </style>
     </head>
     <body>
@@ -25,7 +49,7 @@
         </p>
         <h2 class="ZZZ"> Professional Summary </h2>
         <p>
-            <ul>
+            <ul class="circle">
                 <li> Having 1 year experience in developing Single web application using<span> Angular8 </span>, HTML5, CSS3, Bootstrap5, Javascript, Typescript </li>
                 <li id="xxx">Experience on working with version control system -GIT and GitHub</li>
                 <li> Experience working with JIRA for user stories bug tracking </li>
